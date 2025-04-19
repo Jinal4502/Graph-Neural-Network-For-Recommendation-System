@@ -1,0 +1,1115 @@
+[
+  {
+    "concept": "additive manufacturing",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "fused deposition modeling",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "selective laser sintering",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "stereolithography",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "assembly",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "fabricating",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "semiconductor fabricating",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "kitting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "wire harness assembly",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "casting",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "centrifugal casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "ceramic mold casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "continuous casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "die casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "investment casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "lost foam casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "permanent mold casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "plaster mold casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "sand casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "shell molding",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "squeeze casting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "vacuum casting",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "chemical processing",
+    "altLabels": [],
+    "children": []
+  },
+  {
+    "concept": "forging",
+    "altLabels": [],
+    "children": []
+  },
+  {
+    "concept": "forming",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "drawing",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "extruding",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "knurling",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "powder metal forming",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "spark plasma sintering",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "rolling",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "thermoforming",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "vacuum pressing",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "tubing",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "heat treating",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "annealing",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "hardening",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "surface hardening",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "cyaniding",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "diffusion hardening",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "carbonitriding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "carburizing",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "nitriding",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "vacuum hardening",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "sintering",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "joining",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "adhesive bonding",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "mechanical joining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "mechanical welding",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "explosive welding",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "friction welding",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "pressure welding",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "ultrasonic welding",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "press fitting",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "shrink fitting",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "riveting",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "therma joining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "brazing",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "dip brazing",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "furnace brazing",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "induction brazing",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "infrared brazing",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "resistance brazing",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "torch brazing",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "soldering",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "thermal welding",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "braze welding",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "carbon arc brazing",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "gas brazing",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "diffusion bonding",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "electrical resistance welding",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "butt welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "electro slag welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "percussion welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "projection welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "seam welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "spot welding",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "electric arc welding",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "carbon arc welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "gas metal arc welding",
+                    "altLabels": [],
+                    "children": [
+                      {
+                        "concept": "mig welding",
+                        "altLabels": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "concept": "gas tungsten arc welding",
+                    "altLabels": [],
+                    "children": [
+                      {
+                        "concept": "tig welding",
+                        "altLabels": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "concept": "shielded metal arc welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "stud welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "submerged arc welding",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "gas welding",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "atomic hydrogen welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "combustable gas welding",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "high energy beam welding",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "electron beam welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "laser beam welding",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "plasma arc welding",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "machining",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "abrasive machining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "buffing",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "grinding",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "centerless grinding",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "cylindrical grinding",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "cnc cylindrical grinding",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "creep feed grinding",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "honing",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "lapping",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "chemical machining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "etching",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "cnc machining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "5-axis machining",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "7-axis machining",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "deburring",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "erosion machining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "waterjet cutting",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "multi point cutting",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "broaching",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "gear cutting",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "gear hobbing",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "hole making",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "counter boring",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "counter sinking",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "drilling",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "deep hole drilling",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "reaming",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "tapping",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "milling",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "cnc milling",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "gear gashing",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "horizontal milling",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "slab milling",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "vertical milling",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "end milling",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "face milling",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "concept": "sawing",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "polycrystalline diamond machining",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "single point cutting",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "oil grooving",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "planing",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "shaping",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "turning",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "boring",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "horizontal boring",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "cnc turning",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "live tooling",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "swiss machining",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "molding",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "injection molding",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "vacuum molding",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "packing",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "labeling",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "vacuum packaging",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "sheet metal processing",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "bending",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "wire bending",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "bulge forming",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "embossing",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "notching",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "punching",
+        "altLabels": ["cnc punching"],
+        "children": []
+      },
+      {
+        "concept": "sheering",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "spinning",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "stamping",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "stretch forming",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "surface finishing",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "coating",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "black oxide coating",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "chemical coating",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "chromate conversion coating",
+                "altLabels": [],
+                "children": []
+              },
+              {
+                "concept": "electro plating",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "electroless nickel plating",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "concept": "galvanizing",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "mechanical coating",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "powder coating",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "painting",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "wet painting",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "passivation",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "phosphate coating",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "thermal coating",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "thermal spray coating",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "flame spraying",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "plasma spraying",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "concept": "vaporized metal coating",
+                "altLabels": [],
+                "children": [
+                  {
+                    "concept": "chemical vapor deposition",
+                    "altLabels": [],
+                    "children": []
+                  },
+                  {
+                    "concept": "physical vapor deposition",
+                    "altLabels": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "surface preparation",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "belt sanding",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "harperizing",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "polishing",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "electropolishing",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "concept": "sand blasting",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "shot peening",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "ultrasonic cleaning",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "textile process",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "crochet",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "dyeing",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "knitting",
+        "altLabels": [],
+        "children": []
+      },
+      {
+        "concept": "weaving",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "thermal subtraction",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "electric discharge machining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "hole drilling edm",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "ram edm",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "sinker edm",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "wire edm",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "concept": "high energy beam machining",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "electron-beam machining",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "laser etching",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "laser cutting",
+            "altLabels": [],
+            "children": [
+              {
+                "concept": "cnc laser cutting",
+                "altLabels": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "torch cutting",
+        "altLabels": [],
+        "children": [
+          {
+            "concept": "oxy-fuel cutting",
+            "altLabels": [],
+            "children": []
+          },
+          {
+            "concept": "plasma cutting",
+            "altLabels": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "tool making",
+    "altLabels": [],
+    "children": [
+      {
+        "concept": "mold making",
+        "altLabels": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "concept": "wood working",
+    "altLabels": [],
+    "children": []
+  }
+]
