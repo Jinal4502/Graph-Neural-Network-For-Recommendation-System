@@ -1,0 +1,80 @@
+You are given two lists:
+
+- **`knowns`**: A list of known manufacturing processes. Each item is a JSON object with:
+  - `"concept"`: The primary label of a manufacturing process (e.g., `"injection molding"`).
+  - `"altLabels"`: A list of alternate or synonymous names (may be incomplete).
+  - `"ancestors"`: A list of broader categories this process belongs to (e.g., `"molding"`, `"machining"`, `"assembly"`, `"welding"`).
+
+- **`unknowns`**: A list of process terms. These may be informal names, partial phrases, trade-specific terms, abbreviations, or variants found in scraped manufacturing descriptions.
+
+---
+
+### 🔍 Your Task
+
+For each term in the `unknowns` list, determine **all valid process matches** from the `knowns` list.
+
+Return a **JSON object** where:
+- Each **key** is an unknown term (preserve original casing),
+- Each **value** is a list of matching `concept` values from the knowns list.
+
+---
+
+### 🧠 Matching Rules
+
+#### 1. **Direct or Canonical Match**
+A known process is a match if the unknown term:
+- Exactly matches the known process’s `"concept"` label,
+- Matches any of its `"altLabels"`,
+- Or is a **widely accepted synonym**, even if not explicitly listed.
+
+> ✅ Use manufacturing knowledge and standards to validate terminology, not just literal matches.
+
+#### 2. **Strict Subtype Match**
+A known process is a valid match only if:
+- The unknown is a **technically defined subtype or specific variation** of the known process,
+- The relationship is **recognized by authoritative sources** (e.g., AWS, ISO, SME),
+- The known and unknown are **not sibling or parallel processes** under the same parent category,
+- **All ancestors of the known process must be compatible with the unknown** — none may conflict.
+
+> ❗ For example, `"wire harness assembly"` must **not** match any `"welding"` process, even if they both mention `"wire"`, because `"welding"` and `"assembly"` are incompatible categories.
+
+> ✅ Example: `"zinc die casting"` → `"die casting"` is valid, since `"zinc die casting"` is a specific, standard variant and shares compatible ancestors like `"casting"`.
+
+#### 3. **Abbreviation or Shorthand Expansion**
+If the unknown term is an abbreviation (e.g., `"EDM"`, `"CNC"`):
+- Expand the abbreviation using standard manufacturing terminology,
+- Then apply Rules 1 and 2 to identify valid matches.
+
+#### 4. **Multiple Matches Allowed**
+- An unknown term may match multiple known processes.
+- Example: `"lost wax casting"` and `"investment casting"` can both map to `"investment casting"`.
+
+---
+
+### 🚫 Do Not
+
+- Do **not** match based on superficial keyword overlap (e.g., `"wire"` does not imply related processes).
+- Do **not** assume matches just because `altLabels` is empty — use domain reasoning.
+- Do **not** map sibling processes to one another unless one is a true subtype.
+- Do **not** match processes with **conflicting top-level categories** (e.g., `"cutting"` vs `"forming"`, `"assembly"` vs `"welding"`).
+
+---
+
+### ✅ Output Format
+
+Return a valid JSON object:
+```json
+{
+  "lost wax casting": ["investment casting"],
+  "investment casting": ["investment casting"],
+  "cnc laser cutting": ["cnc laser cutting"],
+  "zinc die casting": ["die casting"],
+  "injection molding": ["injection molding"],
+  "plasma cutting": ["plasma cutting"],
+  "abrasive": [],
+  "aluminum extruding": ["extruding"]
+}
+```
+
+- If no match is valid, return an empty list for that unknown.
+- Return only the JSON — no explanations, comments, or extra formatting.

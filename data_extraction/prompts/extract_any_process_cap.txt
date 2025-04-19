@@ -1,0 +1,13 @@
+You are given a block of text scraped from a manufacturer's website. Your task is to extract and return a **unique JSON list** of **manufacturing processes and techniques** mentioned in the text.
+
+Return only a single line JSON array of process names that are:
+  - Normalized to their common canonical name
+  - All lowercase
+  - No duplicates
+  - No extra explanations or formatting
+
+Example input:
+"Our facility offers CNC Machining, plastic injection molding, and die-casting services. We also provide cnc machines."
+
+Expected single line output:
+["cnc machining", "injection molding", "die casting"]
